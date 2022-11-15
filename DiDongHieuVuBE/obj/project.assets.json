@@ -7244,11 +7244,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\new-tech\\didonghieuvu\\didonghieuvu-be\\DiDongHieuVuBE\\DiDongHieuVuBE.csproj",
+      "projectUniqueName": "D:\\new-tech\\didonghieuvu\\DiDongHieuVuBE\\DiDongHieuVuBE.csproj",
       "projectName": "DiDongHieuVuBE",
-      "projectPath": "D:\\new-tech\\didonghieuvu\\didonghieuvu-be\\DiDongHieuVuBE\\DiDongHieuVuBE.csproj",
+      "projectPath": "D:\\new-tech\\didonghieuvu\\DiDongHieuVuBE\\DiDongHieuVuBE.csproj",
       "packagesPath": "C:\\Users\\Tran Thien Tam\\.nuget\\packages\\",
-      "outputPath": "D:\\new-tech\\didonghieuvu\\didonghieuvu-be\\DiDongHieuVuBE\\obj\\",
+      "outputPath": "D:\\new-tech\\didonghieuvu\\DiDongHieuVuBE\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -7270,8 +7270,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\new-tech\\didonghieuvu\\didonghieuvu-be\\Common\\Common.csproj": {
-              "projectPath": "D:\\new-tech\\didonghieuvu\\didonghieuvu-be\\Common\\Common.csproj"
+            "D:\\new-tech\\didonghieuvu\\Common\\Common.csproj": {
+              "projectPath": "D:\\new-tech\\didonghieuvu\\Common\\Common.csproj"
             }
           }
         }

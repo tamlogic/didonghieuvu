@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "23x8xM4k+lUjm4tsIQ5M3einw6BIf3XMoQX3CiX0xiWDFXW6ozA/VeSkn1wds2JAzgr5bzw6G71tLj+HsSlTyA==",
+  "dgSpecHash": "8t5P3aV6sb7QuMZNFHzwiDJ2Zqyfjh48uL0E0HuKhUoSDdH72MLgiSxTn5Uz/1RxzMXFXDwCpVRB/j0b/OnYRw==",
   "success": true,
-  "projectFilePath": "D:\\new-tech\\didonghieuvu\\didonghieuvu-be\\DiDongHieuVuBE\\DiDongHieuVuBE.csproj",
+  "projectFilePath": "D:\\new-tech\\didonghieuvu\\DiDongHieuVuBE\\DiDongHieuVuBE.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Tran Thien Tam\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\Tran Thien Tam\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

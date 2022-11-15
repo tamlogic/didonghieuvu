@@ -16,7 +16,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - uses: ./
+<<<<<<< HEAD
       with:
         output: swagger-ui-output
         spec-url: https://tamlogic.asia/didonghieuvu/v2/swagger.json
@@ -30,6 +30,8 @@ jobs:
       with:
         name: swagger-ui-output
         path: swagger-ui-output
+=======
+>>>>>>> parent of f1e7d84 (Update dotnet.yml)
     - name: Setup .NET
       uses: actions/setup-dotnet@v3
       with:
