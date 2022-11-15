@@ -26,5 +26,3 @@ jobs:
       run: dotnet build --no-restore
     - name: Test
       run: dotnet test --no-build --verbosity normal
-    - name: Swagger UI Action
-      uses: Legion2/swagger-ui-action@v1.1.6
