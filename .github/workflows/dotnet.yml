@@ -22,6 +22,8 @@ jobs:
         dotnet-version: 6.0.x
     - name: Restore dependencies
       run: dotnet restore
+    - name: Validate Swagger and OpenAPI using Swagger CLI
+      uses: mbowman100/swagger-validator-action@2.0
     - name: Build
       run: dotnet build --no-restore
     - name: Test
