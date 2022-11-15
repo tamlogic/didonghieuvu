@@ -16,6 +16,20 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
+    - uses: ./
+      with:
+        output: swagger-ui-output
+        spec-url: https://tamlogic.asia/didonghieuvu/v2/swagger.json
+    - name: "Verify swagger-ui was created"
+      run: |
+        test -f swagger-ui-output/index.html
+        test -f swagger-ui-output/swagger-config.json
+        test -f swagger-ui-output/swagger-ui-bundle.js
+    - name: Upload generated Swagger UI
+      uses: actions/upload-artifact@v2
+      with:
+        name: swagger-ui-output
+        path: swagger-ui-output
     - name: Setup .NET
       uses: actions/setup-dotnet@v3
       with:
