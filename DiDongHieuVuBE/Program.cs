@@ -101,8 +101,8 @@ builder.Services.AddSwaggerGen(swagger =>
     swagger.SwaggerDoc("v1", new OpenApiInfo
     {
         Version = "v1",
-        Title = "H.S API",
-        Description = "HS MOTOR Web API"
+        Title = "DIDONGHIEUVU API",
+        Description = "DI DONG HIEU VU WEB APP"
     });
     // using System.Reflection;
     //var xmlFilename = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
@@ -161,7 +161,10 @@ app.UseStaticFiles(new StaticFileOptions
 //if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
-    app.UseSwaggerUI();
+    app.UseSwaggerUI(c =>
+    {
+        c.SwaggerEndpoint("v1/swagger.json", "DIDONGHIEUVU V1");
+    });
 }
 
 var webSocketOptions = new WebSocketOptions
