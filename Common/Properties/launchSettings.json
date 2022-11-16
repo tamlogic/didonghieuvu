@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "DiDongHieuVuBE": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "jsWebView2Debugging": false,
+      "sqlDebugging": false,
+      "nativeDebugging": false
+    }
+  }
+}
